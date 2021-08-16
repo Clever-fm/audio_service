@@ -878,7 +878,7 @@ class AudioService {
     AudioServiceConfig? config,
     BaseCacheManager? cacheManager,
   }) async {
-    assert(_cacheManager == null);
+    // assert(_cacheManager == null);
     config ??= const AudioServiceConfig();
     assert(config.fastForwardInterval > Duration.zero);
     assert(config.rewindInterval > Duration.zero);
